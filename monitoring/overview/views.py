@@ -12,12 +12,13 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-import base64
+# import base64
 import copy
 import json
 import logging
 
-from django.conf import settings
+# from django.conf import settings
+ from monitoring.config import local_settings as settings
 from django.contrib import messages
 from django import http
 from django.http import HttpResponse
